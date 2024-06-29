@@ -17,7 +17,6 @@ builder.Services.AddDbContext<CSV_Context>(options =>
     options.UseSqlServer(connectionString);
 }
 );
-
 builder.Services.AddIdentity<AppUser, IdentityRole>()
     .AddEntityFrameworkStores<CSV_Context>()
     .AddDefaultTokenProviders();
