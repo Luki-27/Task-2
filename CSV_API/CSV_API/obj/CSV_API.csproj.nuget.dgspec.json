@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\CSV_API\\CSV_API\\CSV_API.csproj": {}
+    "D:\\MyProjects\\Task-2\\CSV_API\\CSV_API\\CSV_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\CSV_API\\CSV_API\\CSV_API.csproj": {
+    "D:\\MyProjects\\Task-2\\CSV_API\\CSV_API\\CSV_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\CSV_API\\CSV_API\\CSV_API.csproj",
+        "projectUniqueName": "D:\\MyProjects\\Task-2\\CSV_API\\CSV_API\\CSV_API.csproj",
         "projectName": "CSV_API",
-        "projectPath": "C:\\Users\\user\\source\\repos\\CSV_API\\CSV_API\\CSV_API.csproj",
+        "projectPath": "D:\\MyProjects\\Task-2\\CSV_API\\CSV_API\\CSV_API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\CSV_API\\CSV_API\\obj\\",
+        "outputPath": "D:\\MyProjects\\Task-2\\CSV_API\\CSV_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

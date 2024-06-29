@@ -11,7 +11,7 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("MyDb");//missed
+var connectionString = builder.Configuration.GetConnectionString("MyDb");
 builder.Services.AddDbContext<CSV_Context>(options =>
 {
     options.UseSqlServer(connectionString);
