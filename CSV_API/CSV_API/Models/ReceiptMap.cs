@@ -14,6 +14,5 @@ namespace CSV_API.Models
             Map(m => m.Invoicenumberreference).Name("Invoice number reference");
             Map(m => m.InvoiceAmount).Name("Invoice Amount");
         }
-
     }
 }

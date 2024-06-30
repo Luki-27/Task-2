@@ -44,14 +44,13 @@ namespace CSV_API.Controllers
                 }))
                 {
                     csv.Context.RegisterClassMap<ReceiptMap>();
-
                     try
                     {
                         records = new List<Receipt>(csv.GetRecords<Receipt>());
                     }
                     catch (Exception ex)
                     {
-                        return BadRequest($"This File Missed Some Header Columns");
+                        return BadRequest($"One or more required headers are missing from the CSV file.");
                     }
                 }
             }
@@ -60,7 +59,7 @@ namespace CSV_API.Controllers
         private object ConvertData(List<Receipt> records)
         {
 
-            var res = records
+            var TargetView = records
                 .GroupBy(gp => new { gp.BusinessUnit, gp.ReceiptMethodID })
                 .Select(rec => new
                 {
@@ -76,7 +75,7 @@ namespace CSV_API.Controllers
                     })
 
                 });
-            return res;
+            return TargetView;
 
         }
     }

@@ -7,8 +7,7 @@
         public string RemittanceBank { get; set; }
         public string ReceiptNumber { get; set; }
         public string ReceiptAmount { get; set; }
-        public string Invoicenumberreference { get; set; }
+        public string Invoicenumberreference { get; set; }  
         public string InvoiceAmount { get; set; }
-        public string Comments { get; set; }
     }
 }

@@ -17,9 +17,11 @@ builder.Services.AddDbContext<CSV_Context>(options =>
     options.UseSqlServer(connectionString);
 }
 );
+
 builder.Services.AddIdentity<AppUser, IdentityRole>()
     .AddEntityFrameworkStores<CSV_Context>()
     .AddDefaultTokenProviders();
+
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:key"]);
 
